@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.card {
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <img src="https://via.placeholder.com/250" alt="Product">
+  <h3>Product Name</h3>
+  <p>Rs. 999</p>
+  <button onclick="addToCart()">Add to Cart</button>
+</div>
+
+<script>
+function addToCart() {
+  alert("Product added to cart!");
+}
+</script>
+
+</body>
+</html>
